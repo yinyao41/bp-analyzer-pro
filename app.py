@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import pandas as pd
 from pypdf import PdfReader
@@ -138,5 +138,5 @@ if excel_file and uploaded_file:
             st.warning("未生成分析结果，请检查 API Key 或文件内容。")
 else:
     st.info("请上传调研要点 Excel 和商业计划书文件。")
-```
+
 
